@@ -1,11 +1,13 @@
-Install the frontend into this repor with this link:
+# Jupy-Canvas
 
-https://github.com/Jupyter-Canvas/jupy-frontend.git
+To start the entire application, simply run
 
-Install the backend with this link:
+```bash
+docker-compose -p jupy-canvas up --build
+```
 
-https://github.com/Jupyter-Canvas/jupy-backend.git
+After everything is started up, the application can be accessed on
 
-run 
-
-```docker-compose up --build```
+```bash
+http://localhost:80
+```
