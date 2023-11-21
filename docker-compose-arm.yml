@@ -17,6 +17,8 @@ services:
     image: "diegobugmann/jupy-canvas:jc-be-arm"
     ports:
       - "8888:8888"
+    volumes:
+      - './Workspace:/app/Workspace'
     environment:
       - NB_UID=1000
       - NB_GID=1000

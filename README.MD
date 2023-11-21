@@ -29,3 +29,5 @@ After everything is up and running, the application can be accessed on:
 ```bash
 http://localhost:80
 ```
+
+The directory 'Workspace' in this repository will be the entry point of the File Explorer. Feel free to include any files you want to work with in that directory.
